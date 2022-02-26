@@ -5,7 +5,6 @@ import { getTokenFromUrl } from './spotify'
 
 
 export default function App() {
-  const [token, setToken] = useState()
 
   useEffect(() => {
     const token = getTokenFromUrl()
