@@ -7,3 +7,9 @@
     padding-left:10px;
     padding-right:10px;
 }
+
+.sidebar_logo {
+    margin-right: auto;
+    height:70px;
+    padding:15px;
+}
