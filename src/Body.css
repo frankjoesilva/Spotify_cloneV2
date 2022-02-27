@@ -1,0 +1,9 @@
+.body{
+    border:1px solid purple;
+    flex: 0.8;
+    color:white;
+    background: linear-gradient(rgb(120, 155, 167),
+    transparent, rgba(0,0,0,1));
+    height:100vh;
+    
+}
