@@ -25,7 +25,7 @@ export default function App() {
       })
 
       spotify.setAccessToken(_token)
-      spotify.getMe().then(user => {
+      spotify.getMe().then((user) => {
 
 
         dispatch({
@@ -33,9 +33,16 @@ export default function App() {
           user: user
         })
       })
+
+      spotify.getUserPlaylists().then((playlists) => {
+        dispatch({
+          type: "SET_PLAYLISTS",
+          playlists: playlists,
+        })
+      })
+
     }
   }, []);
-
 
   return (
     <div className="app">{token ?
