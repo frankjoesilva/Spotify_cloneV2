@@ -4,7 +4,8 @@ import './SidebarOption.css'
 export default function SidebarOption({ option, Icon }) {
     return (
         <div className='sidebarOption'>
-            <p>{option}</p>
+            {Icon && <Icon className='sidebarOption_icon' />}
+            {Icon ? <h4>{option}</h4> : <p>{option}</p>}
         </div>
     )
 }
