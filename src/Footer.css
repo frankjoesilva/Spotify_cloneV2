@@ -9,3 +9,20 @@
     padding:20px;
 }
 
+.footer_left{
+    flex:0.3;
+}
+
+.footer_center{
+    flex:0.4;
+    padding:0 100px;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    max-width:250px;
+}
+
+.footer_right {
+    flex:0.3;
+}
