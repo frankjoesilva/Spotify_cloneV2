@@ -13,7 +13,11 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="footer_left">
-                <h1>Album and song details</h1>
+                <img className='album_img' src='' alt='' />
+                <div className="song_info">
+                    <h4>California Love</h4>
+                    <p>Tupac</p>
+                </div>
             </div>
 
             <div className="footer_center">
