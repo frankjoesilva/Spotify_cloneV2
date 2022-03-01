@@ -21,11 +21,11 @@ export default function Footer() {
             </div>
 
             <div className="footer_center">
-                <ShuffleIcon className='footer_green' />
+                <ShuffleIcon className='green_icon' />
                 <SkipPreviousIcon className='footer_icon' />
                 <PlayCircleOutlineIcon fontSize='large' className='footer_icon' />
                 <SkipNextIcon className='footer_icon' />
-                <RepeatIcon className='footer_icon' />
+                <RepeatIcon className='green_icon' />
             </div>
 
             <div className="footer_right">
